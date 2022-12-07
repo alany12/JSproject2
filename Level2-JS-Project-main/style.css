@@ -1,0 +1,26 @@
+/*Alan Yuan,Web Dev,Period 7/8 Even, Level 2 Match Game*/
+button {
+    width: 150px;
+    height: 75px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 25px 0px;
+
+    margin: 0 auto;
+    width: 75%;
+}
+#grid img {
+    border: 5px solid black;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    transition: 2.5s;
+}
+#grid img:hover {
+    border: 50px solid gray;
+    transform: scale(1);
+    cursor: pointer;
+}
